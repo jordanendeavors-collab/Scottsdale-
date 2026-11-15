@@ -1,0 +1,41 @@
+{
+ "name": "Scottsdale Watch",
+ "short_name": "Scottsdale Watch",
+ "description": "Live weather, alerts, police activity, earthquakes, wildfire reports, emergency numbers, and nearby places for Scottsdale, Arizona.",
+ "id": "/",
+ "start_url": "/",
+ "scope": "/",
+ "display": "standalone",
+ "background_color": "#141009",
+ "theme_color": "#141009",
+ "icons": [
+  {
+   "src": "icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icon-maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ],
+ "shortcuts": [
+  {
+   "name": "Alerts",
+   "url": "/#alerts"
+  },
+  {
+   "name": "Emergency and nearby",
+   "url": "/#emergency"
+  }
+ ]
+}
